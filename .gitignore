@@ -1,34 +1,78 @@
 
-#Ignore thumbnails created by Windows
-Thumbs.db
-#Ignore files built by Visual Studio
+###############################
+# ARCHIVOS GENERADOS POR QT
+###############################
+
+# Archivos de configuración de Qt Creator (NO se suben nunca)
+*.pro.user
+*.qbs.user
+*.qmlproject.user
+*.creator
+*.creator.user
+*.qtcreator
+*.qtc_clangd
+*.qtc_clangd/*
+
+# Archivos de qmake
+*.moc
+*.qrc.dep
+*.qrc.cpp
+
+###############################
+# ARCHIVOS GENERADOS POR CMAKE
+###############################
+
+CMakeFiles/
+CMakeCache.txt
+cmake_install.cmake
+compile_commands.json
+CTestTestfile.cmake
+Makefile
+
+###############################
+# CARPETAS DE BUILD
+###############################
+
+# Ignora cualquier carpeta llamada build en cualquier nivel
+**/build/
+**/Build/
+**/BUILD/
+
+###############################
+# BINARIOS Y OBJETOS
+###############################
+
+*.o
 *.obj
-*.exe
-*.pdb
-*.user
-*.aps
-*.pch
-*.vspscc
-*_i.c
-*_p.c
-*.ncb
-*.suo
-*.tlb
-*.tlh
-*.bak
-*.cache
-*.ilk
-*.log
-[Bb]in
-[Dd]ebug*/
+*.a
 *.lib
-*.sbr
-obj/
-[Rr]elease*/
-_ReSharper*/
-[Tt]est[Rr]esult*
-.vs/
+*.so
+*.dll
+*.exe
+*.out
+*.app
+
+###############################
+# ARCHIVOS TEMPORALES
+###############################
+
+*.log
+*.tmp
+*.cache
+*.bak
+
+###############################
+# IDEs
+###############################
+
+# Visual Studio Code
+.vscode/
+
+# JetBrains CLion / Qt Creator con plugin
 .idea/
-#Nuget packages folder
-packages/
-build/*
+
+###############################
+# WINDOWS
+###############################
+
+Thumbs.db
