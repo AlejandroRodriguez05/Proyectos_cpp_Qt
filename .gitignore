@@ -1,78 +1,59 @@
-
-###############################
-# ARCHIVOS GENERADOS POR QT
-###############################
-
-# Archivos de configuración de Qt Creator (NO se suben nunca)
-*.pro.user
-*.qbs.user
-*.qmlproject.user
-*.creator
-*.creator.user
-*.qtcreator
-*.qtc_clangd
-*.qtc_clangd/*
-
-# Archivos de qmake
-*.moc
-*.qrc.dep
-*.qrc.cpp
-
-###############################
-# ARCHIVOS GENERADOS POR CMAKE
-###############################
-
-CMakeFiles/
-CMakeCache.txt
-cmake_install.cmake
-compile_commands.json
-CTestTestfile.cmake
-Makefile
-
-###############################
-# CARPETAS DE BUILD
-###############################
-
-# Ignora cualquier carpeta llamada build en cualquier nivel
-**/build/
-**/Build/
-**/BUILD/
-
-###############################
-# BINARIOS Y OBJETOS
-###############################
-
+# C++ objects and libs
+*.slo
+*.lo
 *.o
-*.obj
 *.a
-*.lib
+*.la
+*.lai
 *.so
+*.so.*
 *.dll
-*.exe
-*.out
-*.app
+*.dylib
 
-###############################
-# ARCHIVOS TEMPORALES
-###############################
+# Qt-es
+object_script.*.Release
+object_script.*.Debug
+*_plugin_import.cpp
+/.qmake.cache
+/.qmake.stash
+*.pro.user
+*.pro.user.*
+*.qbs.user
+*.qbs.user.*
+*.moc
+moc_*.cpp
+moc_*.h
+qrc_*.cpp
+ui_*.h
+*.qmlc
+*.jsc
+Makefile*
+*build*
+*build-*
+*.qm
+*.prl
 
-*.log
-*.tmp
-*.cache
-*.bak
+# Qt unit tests
+target_wrapper.*
 
-###############################
-# IDEs
-###############################
+# QtCreator
+*.autosave
 
-# Visual Studio Code
-.vscode/
+# QtCreator Qml
+*.qmlproject.user
+*.qmlproject.user.*
 
-# JetBrains CLion / Qt Creator con plugin
-.idea/
+# QtCreator CMake
+CMakeLists.txt.user*
 
-###############################
-# WINDOWS
-###############################
+# QtCreator 4.8< compilation database
+compile_commands.json
 
-Thumbs.db
+# QtCreator local machine specific files for imported projects
+*creator.user*
+
+*_qmlcache.qrc
+*.qtcreator*
+*.qtc_clangd*
+*/debug/*
+*/release/*
