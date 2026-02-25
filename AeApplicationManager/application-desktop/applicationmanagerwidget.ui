@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<ui version="4.0">
+ <class>ApplicationManagerWidget</class>
+ <widget class="QWidget" name="ApplicationManagerWidget">
+  <property name="geometry">
+   <rect>
+    <x>0</x>
+    <y>0</y>
+    <width>820</width>
+    <height>722</height>
+   </rect>
+  </property>
+  <property name="sizePolicy">
+   <sizepolicy hsizetype="Preferred" vsizetype="Preferred">
+    <horstretch>0</horstretch>
+    <verstretch>0</verstretch>
+   </sizepolicy>
+  </property>
+  <property name="minimumSize">
+   <size>
+    <width>820</width>
+    <height>720</height>
+   </size>
+  </property>
+  <property name="windowTitle">
+   <string>Form</string>
+  </property>
+  <layout class="QVBoxLayout" name="verticalLayout_2">
+   <item>
+    <layout class="QVBoxLayout" name="verticalLayout">
+     <item>
+      <widget class="SearchWidget" name="searchWidget" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>800</width>
+         <height>80</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="InstalledApplicationsWidget" name="installedApplicationWidget" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>800</width>
+         <height>305</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+     <item>
+      <widget class="AvailableApplicationsWidget" name="availableApplicationWidget" native="true">
+       <property name="minimumSize">
+        <size>
+         <width>800</width>
+         <height>305</height>
+        </size>
+       </property>
+      </widget>
+     </item>
+    </layout>
+   </item>
+  </layout>
+ </widget>
+ <customwidgets>
+  <customwidget>
+   <class>SearchWidget</class>
+   <extends>QWidget</extends>
+   <header>searchwidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>AvailableApplicationsWidget</class>
+   <extends>QWidget</extends>
+   <header>availableapplicationswidget.h</header>
+   <container>1</container>
+  </customwidget>
+  <customwidget>
+   <class>InstalledApplicationsWidget</class>
+   <extends>QWidget</extends>
+   <header>installedapplicationswidget.h</header>
+   <container>1</container>
+  </customwidget>
+ </customwidgets>
+ <resources/>
+ <connections/>
+</ui>
