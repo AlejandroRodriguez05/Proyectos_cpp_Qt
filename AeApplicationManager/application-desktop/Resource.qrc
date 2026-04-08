@@ -1,6 +1,5 @@
 <RCC>
     <qresource prefix="/assets">
-        <file>Logo-Aerolaser.png</file>
         <file>lupa.png</file>
         <file>papelera.png</file>
         <file>Corazon.png</file>
@@ -10,14 +9,15 @@
         <file>campana.png</file>
         <file>grid.png</file>
         <file>menu.png</file>
+        <file>Logo.png</file>
     </qresource>
     <qresource prefix="/">
-        <file>apps/aeCloud.png</file>
-        <file>apps/aeMaps.png</file>
-        <file>apps/aeScann.png</file>
-        <file>apps/aeSync.png</file>
-        <file>apps/aeTools.png</file>
-        <file>apps/aeViewer.png</file>
+        <file>apps/Cloud.png</file>
+        <file>apps/Maps.png</file>
+        <file>apps/Scann.png</file>
+        <file>apps/Sync.png</file>
+        <file>apps/Tools.png</file>
+        <file>apps/Viewer.png</file>
     </qresource>
     <qresource prefix="/resources">
         <file>styles.qss</file>

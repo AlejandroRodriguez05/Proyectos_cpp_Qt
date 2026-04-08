@@ -19,7 +19,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     //PONE UN TITULO A LA APLICACION Y EL LOGO
     this->setWindowTitle("AeApplicationManager");
-    this->setWindowIcon(QIcon(":/assets/Logo-Aerolaser.png"));
+    this->setWindowIcon(QIcon(":/assets/Logo.png"));
 
     ApplicationModel* applicationModel = new ApplicationModel(this);
     mApplicationManagerWidget->setApplicationModel(applicationModel);
@@ -30,7 +30,7 @@ MainWindow::MainWindow(QWidget *parent)
 
     //TRAYICON PARA MINIMIZAR LA APP Y EL NOMBRE EN LA AREA DE NOTIFICACION
     QSystemTrayIcon* trayIcon = new QSystemTrayIcon(this);
-    trayIcon->setIcon(QIcon (":/assets/Logo-Aerolaser.png"));
+    trayIcon->setIcon(QIcon (":/assets/Logo.png"));
     trayIcon->setToolTip("AeApplicationManager");
     trayIcon->show();
 
